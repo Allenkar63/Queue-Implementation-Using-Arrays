@@ -105,6 +105,21 @@ int main() {
     return 0;
 }
 ```
+
+## Algorithm
+
+A queue is a linear data structure that follows the **First In First Out (FIFO)** principle, where the first element added is the first one to be removed. The queue has two primary operations: **enqueue** (add an element) and **dequeue** (remove an element).
+
+### Steps:
+
+1. **Enqueue (Adding an Element):**
+   - Check if the queue is full (overflow condition).
+   - If not full, add the element to the rear of the queue and move the rear pointer forward.
+   
+2. **Dequeue (Removing an Element):**
+   - Check if the queue is empty (underflow condition).
+   - If not empty, remove the element from the front of the queue and move the front pointer forward.
+  
 ## Conclusion 
 In this experiment we learned about Queue implementation using arrays with menu options for Insert, Delete, Display, and Exit.
 
